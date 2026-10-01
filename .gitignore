@@ -1,0 +1,52 @@
+## Временные файлы компиляции и сборки (Build outputs)
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Re]leasePublic/
+x64/
+x86/
+[Aa]rm/
+[Aa]rm64/
+bbin/
+obj/
+bin/
+
+## Файлы конфигурации и сессий Visual Studio (.NET Core / MSBuild)
+.vs/
+Generated%20Files/
+*_i.c
+*_p.c
+*.lkshw
+*.lck
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Результаты тестирования
+TestResults/
+*.trx
+*.vstest
+
+## Пакеты и зависимости (NuGet)
+*.nuget.props
+*.nuget.targets
+packages/
+# Если вы используете project.json (старый формат):
+project.lock.json
+# Если используете локальный кэш пакетов:
+.nuget/
+
+## JetBrains Rider / ReSharper
+.idea/
+*.sln.DotSettings.user
+
+## Секреты и локальные настройки среды (Важно!)
+appsettings.Development.json
+*.Secrets.json
+.env
+.env.*
+
+## Логи и отчеты о сбоях
+*.log
+*.crash
